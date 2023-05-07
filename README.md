@@ -10,8 +10,6 @@ As a frequent contributor to my GitHub repository, I've often struggled with fin
 
 This template will streamline the process of creating README files and provide value to other developers who are looking for a similar solution. I'm excited to share my template with the community and hope that it will make the process of creating README files a lot easier for others. Please give this project a :star2: star :star2: if you find it useful!
 
-Use the `BLANK_README.md` (_in progress_) to get started!
-
 ## Built With
 ### Major Frameworks / Libraries 
 _Examples of Major Frameworks and Libraries_
