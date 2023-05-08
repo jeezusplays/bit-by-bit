@@ -2,8 +2,31 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/jeezusplays/bit-by-bit">
+    <img src="assets/logos/white_full_logo.png" alt="Logo" width="300" height="300">
+  </a>
+
+<h3 align="center">Bit-by-Bit</h3>
+
+  <p align="center">
+    Digital Skills Management
+    <br />
+    <a href="https://github.com/jeezusplays/bit-by-bit"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/jeezusplays/bit-by-bit">View Demo</a>
+    ·
+    <a href="https://github.com/jeezusplays/bit-by-bit/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/jeezusplays/bit-by-bit/issues">Request Feature</a>
+  </p>
+</div>
+
 ## About The Project
-![Bit-By-Bit Logo]
 
 ## Built With
 ### Major Frameworks / Libraries 
@@ -134,4 +157,3 @@ Feel free to contact and connect!
 [issues-shield]: https://img.shields.io/github/issues/jeezusplays/README-Template.svg?style=for-the-badge
 [issues-url]: https://github.com/jeezusplays/README-Template/issues
 
-[Bit-By-Bit Logo]: assets/images/black_full_logo.png
