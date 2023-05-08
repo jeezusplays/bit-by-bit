@@ -150,10 +150,10 @@ Feel free to contact and connect!
 * [Github Profile Badges](https://home.aveek.io/GitHub-Profile-Badges/)
 
 
-[forks-shield]: https://img.shields.io/github/forks/jeezusplays/README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/jeezusplays/README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/jeezusplays/README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/jeezusplays/README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/jeezusplays/README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/jeezusplays/README-Template/issues
+[forks-shield]: https://img.shields.io/github/forks/jeezusplays/bit-by-bit.svg?style=for-the-badge
+[forks-url]: https://github.com/jeezusplays/bit-by-bit/network/members
+[stars-shield]: https://img.shields.io/github/stars/jeezusplays/bit-by-bit.svg?style=for-the-badge
+[stars-url]: https://github.com/jeezusplays/bit-by-bit/stargazers
+[issues-shield]: https://img.shields.io/github/issues/jeezusplays/bit-by-bit.svg?style=for-the-badge
+[issues-url]: https://github.com/jeezusplays/bit-by-bit/issues
 
