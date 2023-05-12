@@ -144,6 +144,8 @@ Feel free to contact and connect!
 |<img src="https://avatars.githubusercontent.com/u/41113285?v=4" width="100"></img>|Samuel Chung|Backend Developer|[![GitHub]](https://github.com/samchung95)|[![LinkedIn]](https://www.linkedin.com/in/samuel-chung-339688154/)|
 |<img src="https://avatars.githubusercontent.com/u/84082534?v=4" width="100"></img>|Andre Wong|Backend Developer|[![GitHub]](https://github.com/tham-lf)|[![LinkedIn]]()|
 |<img src="https://avatars.githubusercontent.com/u/72603348?v=4" width="100"></img>|Fiona Ang|Frontend Developer|[![GitHub]](https://github.com/fiona-ang)|[![LinkedIn]]()|
+|<img src="https://avatars.githubusercontent.com/u/111484176?v=4" width="100"></img>|XiaoFang|Frontend Developer|[![GitHub]](https://github.com/xffeng2021)|[![LinkedIn]]()|
+
 
 
 ## Acknowledgements
