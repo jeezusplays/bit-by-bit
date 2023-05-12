@@ -27,6 +27,7 @@
 </div>
 
 ## About The Project
+As Singapore's economy evolves, there is a growing demand for workers with digital skills. However, many job seekers may lack the necessary skills to secure these jobs. By creating digital skills matching platforms that connect job seekers with training programs and job opportunities, Bit By Bit can help to promote digital empowerment and bridge the skills gap in Singapore's labor market.
 
 ## Built With
 ### Major Frameworks / Libraries 
