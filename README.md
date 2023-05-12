@@ -31,7 +31,9 @@ As Singapore's economy evolves, there is a growing demand for workers with digit
 
 ## Built With
 ### Major Frameworks / Libraries 
+
 #### Front-end frameworks and libraries
+* Vue.js
 <!-- 1. React - A JavaScript library for building user interfaces.
 2. Angular - A TypeScript-based web application framework.
 Vue.js - A progressive JavaScript framework for building user interfaces.
@@ -138,8 +140,8 @@ Feel free to contact and connect!
 
 || Name | Main Role | Github | LinkedIn |
 |-----------| ----------- | ----------- | ----------- | ----------- |
-|<img src="https://avatars.githubusercontent.com/u/68149788?v=4" width="100"></img>|Tan Zuyi Joey|Project Manager|[![jeezusplays](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/jeezusplays)|[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://linkedin.com/in/joey-tan-zuyi)|
-|<img src="https://avatars.githubusercontent.com/u/41113285?v=4" width="100"></img>|Samuel Chung|Software Engineer|[![samchung95](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/samchung95)|[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/samuel-chung-339688154/)|
+|<img src="https://avatars.githubusercontent.com/u/68149788?v=4" width="100"></img>|Tan Zuyi Joey|Project Manager|[![jeezusplays]](https://github.com/jeezusplays)|[![LinkedIn]](https://linkedin.com/in/joey-tan-zuyi)|
+|<img src="https://avatars.githubusercontent.com/u/41113285?v=4" width="100"></img>|Samuel Chung|Software Engineer|[![samchung95]](https://github.com/samchung95)|[![LinkedIn]](https://www.linkedin.com/in/samuel-chung-339688154/)|
 
 ## Acknowledgements
 * [Choose an Open Source License](https://choosealicense.com)
@@ -157,4 +159,11 @@ Feel free to contact and connect!
 [stars-url]: https://github.com/jeezusplays/bit-by-bit/stargazers
 [issues-shield]: https://img.shields.io/github/issues/jeezusplays/bit-by-bit.svg?style=for-the-badge
 [issues-url]: https://github.com/jeezusplays/bit-by-bit/issues
+
+[jeezusplays]: https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white
+[LinkedIn]: https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=LinkedIn&logoColor=white
+
+[samchung95]: https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white
+[LinkedIn]: https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=LinkedIn&logoColor=white
+
 
