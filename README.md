@@ -140,8 +140,10 @@ Feel free to contact and connect!
 
 || Name | Main Role | Github | LinkedIn |
 |-----------| ----------- | ----------- | ----------- | ----------- |
-|<img src="https://avatars.githubusercontent.com/u/68149788?v=4" width="100"></img>|Tan Zuyi Joey|Project Manager|[![jeezusplays]](https://github.com/jeezusplays)|[![LinkedIn]](https://linkedin.com/in/joey-tan-zuyi)|
-|<img src="https://avatars.githubusercontent.com/u/41113285?v=4" width="100"></img>|Samuel Chung|Backend Developer|[![samchung95]](https://github.com/samchung95)|[![LinkedIn]](https://www.linkedin.com/in/samuel-chung-339688154/)|
+|<img src="https://avatars.githubusercontent.com/u/68149788?v=4" width="100"></img>|Tan Zuyi Joey|Project Manager|[![GitHub]](https://github.com/jeezusplays)|[![LinkedIn]](https://linkedin.com/in/joey-tan-zuyi)|
+|<img src="https://avatars.githubusercontent.com/u/41113285?v=4" width="100"></img>|Samuel Chung|Backend Developer|[![GitHub]](https://github.com/samchung95)|[![LinkedIn]](https://www.linkedin.com/in/samuel-chung-339688154/)|
+|<img src="https://avatars.githubusercontent.com/u/84082534?v=4" width="100"></img>|Andre Wong|Backend Developer|[![GitHub]](https://github.com/tham-lf)|[![LinkedIn]]()|
+
 
 ## Acknowledgements
 * [Choose an Open Source License](https://choosealicense.com)
@@ -160,10 +162,7 @@ Feel free to contact and connect!
 [issues-shield]: https://img.shields.io/github/issues/jeezusplays/bit-by-bit.svg?style=for-the-badge
 [issues-url]: https://github.com/jeezusplays/bit-by-bit/issues
 
-[jeezusplays]: https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white
-[LinkedIn]: https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=LinkedIn&logoColor=white
-
-[samchung95]: https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white
+[GitHub]: https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white
 [LinkedIn]: https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=LinkedIn&logoColor=white
 
 
