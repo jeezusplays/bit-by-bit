@@ -141,7 +141,7 @@ Feel free to contact and connect!
 || Name | Main Role | Github | LinkedIn |
 |-----------| ----------- | ----------- | ----------- | ----------- |
 |<img src="https://avatars.githubusercontent.com/u/68149788?v=4" width="100"></img>|Tan Zuyi Joey|Project Manager|[![jeezusplays]](https://github.com/jeezusplays)|[![LinkedIn]](https://linkedin.com/in/joey-tan-zuyi)|
-|<img src="https://avatars.githubusercontent.com/u/41113285?v=4" width="100"></img>|Samuel Chung|Software Engineer|[![samchung95]](https://github.com/samchung95)|[![LinkedIn]](https://www.linkedin.com/in/samuel-chung-339688154/)|
+|<img src="https://avatars.githubusercontent.com/u/41113285?v=4" width="100"></img>|Samuel Chung|Backend Developer|[![samchung95]](https://github.com/samchung95)|[![LinkedIn]](https://www.linkedin.com/in/samuel-chung-339688154/)|
 
 ## Acknowledgements
 * [Choose an Open Source License](https://choosealicense.com)
