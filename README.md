@@ -7,7 +7,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/jeezusplays/bit-by-bit">
-    <img src="assets/logos/white_full_logo.png" alt="Logo" width="300" height="300">
+    <img src="src/assets/logos/white_full_logo.png" alt="Logo" width="300" height="300">
   </a>
 
 <h3 align="center">Bit-by-Bit</h3>
