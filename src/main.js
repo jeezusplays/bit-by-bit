@@ -1,4 +1,4 @@
-// import './assets/main.css'
+// import './assets/main.css' // Doesn't work for dashboard
 
 import { createApp } from 'vue'
 import App from './App.vue'
