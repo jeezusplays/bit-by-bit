@@ -6,6 +6,6 @@
 
 <script>
 export default{
-    name:"AppHome"
+    name:"AppDashboard"
 }
 </script>
