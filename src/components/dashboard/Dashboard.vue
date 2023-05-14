@@ -1,6 +1,6 @@
 <template>
     <div>
-        This is a home template
+        This is a dashboard template
     </div>
 </template>
 
