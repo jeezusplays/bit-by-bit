@@ -6,6 +6,7 @@ import Home from '../components/Home.vue'
 import Dashboard from '../components/dashboard/Dashboard.vue'
 import DashboardView from '../views/DashboardView.vue'
 import Recommend from '../components/recommendation/Home.vue'
+import OnboardInterest from '../components/onboard/OnboardInterest.vue'
 
 
 // Define routes
@@ -19,6 +20,7 @@ const routes = [
     ]
   },
   { path: '/recommend', component: Recommend },
+  { path:'/onboard/interest', component: OnboardInterest}
 ]
 
 // Create the router
