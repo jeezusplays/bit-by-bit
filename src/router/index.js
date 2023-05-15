@@ -5,7 +5,10 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../components/Home.vue'
 import Dashboard from '../components/dashboard/Dashboard.vue'
 import DashboardView from '../views/DashboardView.vue'
-import Recommend from '../components/recommendation/Home.vue'
+import RecommendCourses from '../components/recommendation/RecommendCourses.vue'
+import RecommendCareers from '../components/recommendation/RecommendCareers.vue'
+import CareerDesc from '../components/recommendation/CareerDesc.vue'
+
 
 
 // Define routes
@@ -18,7 +21,10 @@ const routes = [
       { path: 'dashboard', component: Dashboard },
     ]
   },
-  { path: '/recommend', component: Recommend },
+  { path: '/recommendcourses', component: RecommendCourses },
+  { path: '/recommendcareers', component: RecommendCareers },
+  { path: '/careerdesc', component: CareerDesc },
+
 ]
 
 // Create the router
