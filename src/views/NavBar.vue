@@ -125,8 +125,4 @@ export default {
 .dropdown-item {
   transition: 300ms;
 }
-
-.dropdown-item:hover {
-  background-color: var(--main-grey);
-}
 </style>
