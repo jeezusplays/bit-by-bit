@@ -4,7 +4,7 @@ import { RouterLink } from "vue-router";
 </script>
 
 <template>
-    <nav class="navbar sticky-top navbar-expand-md px-4 py-3" id="navbar">
+    <nav class="navbar sticky-top navbar-expand-md px-4" id="navbar">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="../assets/logos/white_full_logo.png" width="100" alt="">
