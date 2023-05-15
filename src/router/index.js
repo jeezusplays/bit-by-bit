@@ -5,6 +5,9 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../components/Home.vue'
 import NavBar from '../views/NavBar.vue'
 import Dashboard from '../components/dashboard/Dashboard.vue'
+
+import OnboardInterest from '../components/onboard/OnboardInterest.vue'
+
 // import DashboardView from '../views/DashboardView.vue'
 // import Recommend from '../components/recommendation/Home.vue'
 import RecommendCourses from '../components/recommendation/RecommendCourses.vue'
@@ -12,16 +15,20 @@ import RecommendCareers from '../components/recommendation/RecommendCareers.vue'
 import CareerDesc from '../components/recommendation/CareerDesc.vue'
 
 
+
 // Define routes
 const routes = [
   { path: '/home', component: Home },
-  { 
-    path: '/', 
+  {
+    path: '/',
     component: NavBar,
     children: [
       { path: 'dashboard', component: Dashboard },
     ]
   },
+
+  { path: '/onboard/interest', component: OnboardInterest },
+
   { path: '/recommendcourses', component: RecommendCourses },
   { path: '/recommendcareers', component: RecommendCareers },
   { path: '/careerdesc', component: CareerDesc },
