@@ -23,15 +23,14 @@ const routes = [
     component: NavBar,
     children: [
       { path: 'dashboard', component: Dashboard },
-      { path: 'plan', component: Plan }
+      { path: 'plan', component: Plan },
+      { path: 'onboard/interest', component: OnboardInterest },
+      { path: 'recommendcourses', component: RecommendCourses },
+      { path: 'recommendcareers', component: RecommendCareers },
+      { path: 'careerdesc', component: CareerDesc },
     ]
   },
-  
-  { path: '/onboard/interest', component: OnboardInterest },
 
-  { path: '/recommendcourses', component: RecommendCourses },
-  { path: '/recommendcareers', component: RecommendCareers },
-  { path: '/careerdesc', component: CareerDesc },
 
 ]
 
