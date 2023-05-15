@@ -9,8 +9,8 @@ import { RouterLink } from "vue-router";
             <a class="navbar-brand" href="#">
                 <img src="../assets/logos/white_full_logo.png" width="100" alt="">
             </a>
-            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                aria-controls="offcanvasNavbar">
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -72,34 +72,34 @@ export default {
 
 <style>
 .nav-item .nav-link.pp {
-  color: #FFFFFF;
-  font-weight: 700;
+    color: #FFFFFF;
+    font-weight: 700;
 }
 
 .nav-item .nav-link.pp::after {
-  content: "";
-  width: 0px;
-  height: 2px;
-  display: block;
-  transition: 300ms;
+    content: "";
+    width: 0px;
+    height: 2px;
+    display: block;
+    transition: 300ms;
 }
 
 .nav-item .nav-link.pp:hover {
-  display: inline-block;
-  color: #BB0A21;
+    display: inline-block;
+    color: #BB0A21;
 }
 
 .nav-item .nav-link.pp:hover::after {
-  width: 100%;
+    width: 100%;
 }
 
 .nav-item.active .nav-link.pp::after {
-  width: 100%;
+    width: 100%;
 }
 
 .navbar {
-  --bs-navbar-toggler-focus-width: 0rem;
-  background-color: #252627;
+    --bs-navbar-toggler-focus-width: 0rem;
+    background-color: #252627;
 
 }
 
@@ -108,21 +108,21 @@ export default {
 }
 
 .dropdown-menu.show {
-  padding: 0px;
-  position: absolute;
-  right: 0;
-  left: initial !important;
+    padding: 0px;
+    position: absolute;
+    right: 0;
+    left: initial !important;
 }
 
 .dropdown-menu[data-bs-popper] {
-  left: initial;
+    left: initial;
 }
 
 .navbar-collapse.collapse.show ul {
-  margin-top: 1rem;
+    margin-top: 1rem;
 }
 
 .dropdown-item {
-  transition: 300ms;
+    transition: 300ms;
 }
 </style>
