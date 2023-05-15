@@ -25,6 +25,7 @@ import {
     faComment,
     faStar,
     faMagnifyingGlass,
+    faSearch,
     faTag,
     faSquarePhoneFlip,
     faPen,
@@ -34,7 +35,9 @@ import {
     faCalendar,
     faCreditCard,
     faLock,
-    faPlus
+    faPlus,
+    faComputer,
+    faCircle
   } from "@fortawesome/free-solid-svg-icons";
   import {
     faTwitter,
@@ -57,6 +60,7 @@ import {
     faComment,
     faStar,
     faMagnifyingGlass,
+    faSearch,
     faTag,
     faSquarePhoneFlip,
     faPen,
@@ -66,7 +70,9 @@ import {
     faCalendar,
     faCreditCard,
     faLock,
-    faPlus
+    faPlus,
+    faComputer,
+    faCircle
   );
 
 const app = createApp(App)
