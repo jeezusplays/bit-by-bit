@@ -36,6 +36,7 @@ As Singapore's economy evolves, there is a growing demand for workers with digit
 [![Vue.js]](https://vuejs.org/)
 [![Bootstrap]](https://getbootstrap.com/)
 [![Font Awesome]](https://fontawesome.com/)
+[![Figma]](https://www.figma.com/)
 
 
 <!-- #### Back-end frameworks and libraries -->
@@ -162,5 +163,6 @@ Feel free to contact and connect!
 [Vue.js]: https://img.shields.io/badge/Vue.js-4FC08D.svg?style=for-the-badge&logo=vuedotjs&logoColor=white
 [Bootstrap]: https://img.shields.io/badge/Bootstrap-7952B3.svg?style=for-the-badge&logo=Bootstrap&logoColor=white
 [Font Awesome]: https://img.shields.io/badge/Font%20Awesome-528DD7.svg?style=for-the-badge&logo=Font-Awesome&logoColor=white
+[Figma]: https://img.shields.io/badge/Figma-F24E1E.svg?style=for-the-badge&logo=Figma&logoColor=white
 
 
