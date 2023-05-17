@@ -30,38 +30,36 @@
 As Singapore's economy evolves, there is a growing demand for workers with digital skills. However, many job seekers may lack the necessary skills to secure these jobs. By creating digital skills matching platforms that connect job seekers with training programs and job opportunities, Bit By Bit can help to promote digital empowerment and bridge the skills gap in Singapore's labor market.
 
 ## Built With
-### Major Frameworks / Libraries 
+<!-- ### Major Frameworks / Libraries 
 
-#### Front-end frameworks and libraries
-* Vue.js
-<!-- 1. React - A JavaScript library for building user interfaces.
-2. Angular - A TypeScript-based web application framework.
-Vue.js - A progressive JavaScript framework for building user interfaces.
-3. Bootstrap - A popular CSS framework for building responsive websites.
-4. Material UI - A React component library implementing Google's Material Design. -->
+#### Front-end frameworks and libraries -->
+[![Vue.js]](https://vuejs.org/)
+[![Bootstrap]](https://getbootstrap.com/)
+[![Font Awesome]](https://fontawesome.com/)
 
-#### Back-end frameworks and libraries
+
+<!-- #### Back-end frameworks and libraries -->
 <!-- 1. Express - A popular Node.js framework for building web applications.
 2. Django - A Python web framework for building high-level, robust web applications.
 3. Ruby on Rails - A Ruby-based web application framework that follows the Model-View-Controller (MVC) architecture pattern.
 4. Flask - A Python web framework that emphasizes simplicity and flexibility.
 5. Spring - A Java-based framework for building enterprise-level applications. -->
 
-#### Data science and machine learning frameworks and libraries
+<!-- #### Data science and machine learning frameworks and libraries -->
 <!-- 1. TensorFlow - A popular open-source library for machine learning developed by Google.
 2. PyTorch - An open-source machine learning framework developed by Facebook's AI Research team.
 3. scikit-learn - A Python library for machine learning and data mining.
 4. Pandas - A Python library for data manipulation and analysis.
 5. NumPy - A Python library for numerical computing and data analysis. -->
 
-#### Other commonly used frameworks and libraries
+<!-- #### Other commonly used frameworks and libraries -->
 <!-- 1. jQuery - A JavaScript library for simplifying client-side scripting and HTML document manipulation.
 2. Flask RESTful - A Flask extension for building RESTful APIs.
 3. FastAPI - A modern, fast (high-performance) web framework for building APIs with Python 3.7+.
 4. Jest - A JavaScript testing framework.
 5. Mocha - A JavaScript testing framework for Node.js applications. -->
 
-### APIs 
+<!-- ### APIs  -->
 <!-- _Examples of APIs used_
 1. Google Maps API - Provides access to Google Maps data and functionality.
 2. Twitter API - Allows developers to access Twitter data and functionality.
@@ -76,10 +74,7 @@ Vue.js - A progressive JavaScript framework for building user interfaces.
 
 ## Getting Started
 ### Prerequisites
-_Examples of prerequisites_
 * Node.js 
-
-
 * npm
   ```sh
   npm install npm@latest -g
@@ -164,5 +159,8 @@ Feel free to contact and connect!
 
 [GitHub]: https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white
 [LinkedIn]: https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=LinkedIn&logoColor=white
+[Vue.js]: https://img.shields.io/badge/Vue.js-4FC08D.svg?style=for-the-badge&logo=vuedotjs&logoColor=white
+[Bootstrap]: https://img.shields.io/badge/Bootstrap-7952B3.svg?style=for-the-badge&logo=Bootstrap&logoColor=white
+[Font Awesome]: https://img.shields.io/badge/Font%20Awesome-528DD7.svg?style=for-the-badge&logo=Font-Awesome&logoColor=white
 
 
