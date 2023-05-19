@@ -16,8 +16,13 @@
       </h1>
       <div class="justify-content-center mt-5">
         <h3>Input careers</h3>
-        <input class="form-control form-control-lg" type="text" aria-label=".form-control-lg example" />
+        <input class="form-control form-control-lg" type="text" id="career-input" v-model="careerInput" @keyup.enter="addCareer">
       </div>
+      <div class="career-list">
+          <div v-for="career in careers" :key="career.id" class="career" :class="{ 'selected': isSelected(career) }" @click="toggleSelected(career)">
+            {{ career.name }}
+          </div>
+        </div>
       <!-- button -->
       <div style="margin-top: 100px" class="d-flex flex-row">
         <!-- <button class="button btn btn-light">Previous</button> -->
@@ -33,9 +38,13 @@ export default {
   name: "OnboardInterest",
   data() {
     return {
-      userInput: "",
+      careers:[
+        {id: 1, name: "Web Developer"},
+        {id: 2, name: "Graphic Designer"}
+      ],
+      careerInput: "",
       recommendedCareers: [],
-      selectedCareer: "",
+      selectedCareers: [],
     };
   },
   methods: {
@@ -48,11 +57,30 @@ export default {
         "Data Analyst",
         "Project Manager",
       ].filter((career) => {
-        return career.toLowerCase().includes(this.userInput.toLowerCase());
+        return career.toLowerCase().includes(this.careerInput.toLowerCase());
       });
       this.recommendedCareers = matchingCareers;
       this.selectedCareer = matchingCareers[0];
     },
+
+    isSelected(career) {
+        return this.selectedCareers.includes(career);
+      },
+      toggleSelected(career) {
+        if (this.isSelected(career)) {
+          this.selectedCareers = this.selectedSkills.filter(selectedCareer => selectedCareer !== career);
+        } else {
+          this.selectedCareers.push(career);
+        }
+      },
+      addSkill() {
+        if (this.careerInput.trim() !== '') {
+          const newCareer = { id: this.careers.length + 1, name: this.careerInput.trim() };
+          this.careers.push(newCareer);
+          this.selectedCareers.push(newCareer);
+          this.careerInput = '';
+        }
+      }
   },
 };
 </script>

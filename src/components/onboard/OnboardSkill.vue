@@ -40,6 +40,7 @@
       }
     },
     methods: {
+    
       isSelected(skill) {
         return this.selectedSkills.includes(skill);
       },

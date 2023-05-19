@@ -2,10 +2,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 // Import routes
-import Home from '../components/Home.vue'
+// import Home from '../components/Home.vue'
 import NavBar from '../views/NavBar.vue'
 import Dashboard from '../components/dashboard/Dashboard.vue'
-
+import Plan from '../components/plan/Plan.vue'
 import OnboardInterest from '../components/onboard/OnboardInterest.vue'
 import OnboardSkill from '../components/onboard/OnboardSkill.vue'
 
@@ -19,21 +19,28 @@ import CareerDesc from '../components/recommendation/CareerDesc.vue'
 
 // Define routes
 const routes = [
-  { path: '/home', component: Home },
   {
     path: '/',
     component: NavBar,
     children: [
       { path: 'dashboard', component: Dashboard },
+      { path: 'plan', component: Plan },
+      { path: 'onboard/interest', component: OnboardInterest },
+      { path: 'recommendcourses', component: RecommendCourses },
+      { path: 'recommendcareers', component: RecommendCareers },
+      { path: 'careerdesc', component: CareerDesc },
     ]
   },
 
+<<<<<<< HEAD
   { path: '/onboard/interest', component: OnboardInterest },
   { path: '/onboard/skill', component: OnboardSkill },
   
   { path: '/recommendcourses', component: RecommendCourses },
   { path: '/recommendcareers', component: RecommendCareers },
   { path: '/careerdesc', component: CareerDesc },
+=======
+>>>>>>> 92d25811a0c817b2c55bb17cdfe53cc73342077b
 
 ]
 
