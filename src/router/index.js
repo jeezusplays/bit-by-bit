@@ -7,6 +7,7 @@ import NavBar from '../views/NavBar.vue'
 import Dashboard from '../components/dashboard/Dashboard.vue'
 
 import OnboardInterest from '../components/onboard/OnboardInterest.vue'
+import OnboardSkill from '../components/onboard/OnboardSkill.vue'
 
 // import DashboardView from '../views/DashboardView.vue'
 // import Recommend from '../components/recommendation/Home.vue'
@@ -28,7 +29,8 @@ const routes = [
   },
 
   { path: '/onboard/interest', component: OnboardInterest },
-
+  { path: '/onboard/skill', component: OnboardSkill },
+  
   { path: '/recommendcourses', component: RecommendCourses },
   { path: '/recommendcareers', component: RecommendCareers },
   { path: '/careerdesc', component: CareerDesc },
