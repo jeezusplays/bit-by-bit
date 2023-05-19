@@ -142,13 +142,8 @@ Feel free to contact and connect!
 
 
 ## Acknowledgements
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
 * [Img Shields](https://shields.io)
 * [Font Awesome](https://fontawesome.com)
-* [Github Profile Badges](https://home.aveek.io/GitHub-Profile-Badges/)
 
 
 [forks-shield]: https://img.shields.io/github/forks/jeezusplays/bit-by-bit.svg?style=for-the-badge
