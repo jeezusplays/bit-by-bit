@@ -7,7 +7,11 @@
         <h2 class="col-md-9" style="padding-bottom: 30px">About Being A Web Developer</h2>
         <div class="col-md-3">
             <div class="d-flex justify-content-end">
-                <button type="button" class="btn btn-primary btn-lg">Become a Web Developer</button>
+                <router-link
+                    to="/Plan"
+                    custom v-slot="{navigate}">
+                        <button @click="navigate" role="link" type="button" class="btn btn-primary btn-lg">Become a Web Developer</button>
+                </router-link>
             </div>
         </div>
     </div>
@@ -20,10 +24,10 @@
             <h5 class="text-justify text-primary"> Qualifications </h5>
             <p class="text-justify">
                 <ul style="padding-bottom: 30px">
-                    <li>Use v-for</li> 
-                    <li>Use v-for</li>
-                    <li>Use v-for</li>
-                    <li>Use v-for</li> 
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li> 
+                    <li>Aperiam quod expedita doloribus magni veritatis tempore suscipit porro</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li>Aperiam quod expedita doloribus magni veritatis tempore suscipit porro</li> 
                     
                 </ul>
             </p>
@@ -33,46 +37,61 @@
         <div class="col-md-1 mx-auto"></div>
 
         <div class="col-md-5">
-            <h5 class="text-justify text-primary"> Industry: {{}} </h5>
-            <h5 class="text-justify text-primary"> Relevance to you: {{}} </h5>
-            <h5 class="text-justify text-primary"> Average Salary: {{}} </h5>
-            <h5 class="text-justify text-primary"> Number of openings: {{}} </h5>
-            <h5 class="text-justify text-primary"> Top hiring companies: {{}} </h5>
+            <h5 class="text-justify text-primary"> Industry: </h5> Technology <br>
+            <h5 class="text-justify text-primary"> Relevance to you: </h5> 98% <br>
+            <h5 class="text-justify text-primary"> Average Salary: </h5> $4000 / month <br>
+            <h5 class="text-justify text-primary"> Number of openings: </h5> 97 Openings <br>
+            <h5 class="text-justify text-primary"> Top hiring companies: </h5> 
+                <ul>
+                    <li> Apple </li>
+                    <li> Samsung </li>
+                    <li> Microsoft </li>
+                    <li> Google </li>
+                </ul>
         </div>
     </div>
+
 
     <div class="row">
         <h5 class="text-justify text-primary"> Top Skills for Web Developer </h5>
             <div class="col-md-6 mx-auto">
             <!-- Use v-for for the first 4 skill items  -->
-                <div class="alert alert-primary d-flex" role="alert">
-                    Web Design
+                <div class="alert alert-primary" role="alert">
+                    <strong> Web Design </strong> <br>
+                    32 Courses Available
                 </div>
                 <div class="alert alert-warning" role="alert">
-                    Python
+                    <strong> Python </strong> <br>
+                    30 Courses Available
                 </div>
                 <div class="alert alert-success" role="alert">
-                    PHP       
+                    <strong> PHP </strong> <br>
+                    50 Courses Available       
                 </div>
                 <div class="alert alert-danger" role="alert">
-                    Javascript
+                    <strong> Javascript </strong> <br>
+                    10 Courses Available
                 </div>
             </div>
 
 
         <div class="col-md-6 mx-auto">
             <!-- Use v-for for the next 4 skill items  -->
-            <div class="alert alert-primary d-flex" role="alert">
-                Creativity
+            <div class="alert alert-primary" role="alert">
+                <strong> Creativity </strong> <br>
+                1 Course Available
             </div>
             <div class="alert alert-warning" role="alert">
-                CSS
+                <strong> CSS </strong> <br>
+                    20 Courses Available
             </div>
             <div class="alert alert-success" role="alert">
-                HTML       
+                <strong> HTML </strong> <br>
+                    22 Courses Available     
             </div>
             <div class="alert alert-danger" role="alert">
-                Problem Solving
+                <strong> Problem-Solving </strong> <br>
+                    1 Course Available
             </div>
         </div>
 
@@ -158,19 +177,21 @@ export default {
     }
 
 }
+
+
 </script>
 
 <style>
-.col-md-6 {
-  box-sizing: border-box;
-}
-
-.boxy {
-  margin-left: 10px;
-}
-
+    .col-md-6 {
+    box-sizing: border-box;
+    }
     .text-justify{
         text-align: justify;
+        display: inline-block
+    }
+
+    .boxy {
+        margin-left: 10px;
     }
     .description {
     height: 5em; /* set the maximum height to 400px */
