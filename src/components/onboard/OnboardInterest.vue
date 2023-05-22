@@ -26,7 +26,9 @@
       <!-- button -->
       <div style="margin-top: 100px" class="d-flex flex-row">
         <!-- <button class="button btn btn-light">Previous</button> -->
-        <button class="button btn btn-light ms-auto">Next</button>
+        <router-link to="/onboard/skill" custom v-slot="{ navigate }">
+          <button @click="navigate"  role="link" type="button" class="button btn btn-light ms-auto">Next</button>
+        </router-link>
       </div>
     </div>
   </div>
