@@ -5,7 +5,7 @@
         What industry skills do you possess?
       </h1>
       <div class="justify-content-center mt-5">
-        <h3>Input skills</h3>
+        <h3>Input Skills</h3>
         <input class="form-control form-control-lg" type="text" id="skill-input" v-model="skillInput"
           @keyup.enter="addSkill">
       </div>
