@@ -1,6 +1,6 @@
 <template>
     <div class="container m-3 mx-auto">
-        <h4 class="text-primary">{{ user }}</h4>
+        <h4>{{ user }}</h4>
         <br>
 
         <div class="row">
