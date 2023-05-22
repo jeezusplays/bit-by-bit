@@ -10,8 +10,9 @@
         <input class="form-control form-control-lg" type="text" id="skill-input" v-model="skillInput" @keyup.enter="addSkill">
       </div>
       <div class="skill-list">
-          <div v-for="skill in skills" :key="skill.id" class="skill" :class="{ 'selected': isSelected(skill) }" @click="toggleSelected(skill)">
+          <div v-for="skill in skills" :key="skill.id" class="skill rounded-pill px-3" :class="[isSelected(skill) ? 'bg-dark text-white' : 'bg-light border-1 text-dark']" @click="toggleSelected(skill)">
             {{ skill.name }}
+            <font-awesome-icon v-if="!isSelected(skill)" class="ms-2" :icon="['fas', 'plus']" />
           </div>
         </div>
       <!-- button -->
@@ -54,8 +55,8 @@
       addSkill() {
         if (this.skillInput.trim() !== '') {
           const newSkill = { id: this.skills.length + 1, name: this.skillInput.trim() };
-          this.skills.push(newSkill);
-          this.selectedSkills.push(newSkill);
+          this.skills.unshift(newSkill);
+          this.selectedSkills.unshift(newSkill);
           this.skillInput = '';
         }
       }
@@ -76,10 +77,10 @@
     cursor: pointer;
     border: 1px solid #ccc;
     padding: 5px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
   }
   .skill.selected {
-    background-color: #007bff;
+    background-color: #252627;
     color: #fff;
   }
   .skill-list {
