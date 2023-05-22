@@ -2,7 +2,7 @@
   <div class="container-fluid vh-100 d-flex">
     <div class="container m-auto">
       <h1 class="justify-content-center text-center">
-        What are some industry skills you possess?
+        What industry skills do you possess?
       </h1>
       <div class="justify-content-center mt-5">
         <h3>Input skills</h3>
