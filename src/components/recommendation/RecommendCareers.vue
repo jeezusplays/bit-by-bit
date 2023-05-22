@@ -5,7 +5,7 @@
 
     <div class="row">
         <h2 class="col" >Top Recommended Careers For You </h2>
-        <p class="text-secondary"> Number of results: {{ items.length }}</p>
+        <p class="text-secondary"> Number of results: 6 {{}}</p>
     </div>
 
     <div class="d-flex align-items-center">
@@ -41,8 +41,69 @@
                 <li><a class="dropdown-item" href="#">v-for used here</a></li>
             </ul>
         </div>
-
     </div>
+
+
+    <div class="row" style="margin-top: 30px">
+        <div class="col-sm-4">
+            <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title">UI/UX Designer</h5> 
+                <hr>
+                <p class="card-text">Estimated Salary: $2000 / month</p>
+                <p class="card-text">Relevance: 90% </p>
+                <p class="card-text">Number of openings: 90 </p>
+                <strong class="card-text">Industry: Technology </strong>
+                <br><br>
+                <router-link
+                    to="/CareerDesc"
+                    custom v-slot="{navigate}">
+                    <button @click="navigate" role="link" type="button" class="btn btn-primary">View Career ↗</button>
+                </router-link>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title">Web Developer</h5>
+                <hr>
+                <p class="card-text">Estimated Salary: $2000 / month</p>
+                <p class="card-text">Relevance: 90% </p>
+                <p class="card-text">Number of openings: 90 </p>
+                <strong class="card-text">Industry: Technology </strong>
+                <br><br>
+                <router-link
+                    to="/CareerDesc"
+                    custom v-slot="{navigate}">
+                    <button @click="navigate" role="link" type="button" class="btn btn-primary">View Career ↗</button>
+                </router-link>            
+            </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title">Researcher</h5>
+                <hr>
+                <p class="card-text">Estimated Salary: $2000 / month</p>
+                <p class="card-text">Relevance: 90% </p>
+                <p class="card-text">Number of openings: 90 </p>
+                <strong class="card-text">Industry: Technology </strong>
+                <br><br>
+                <router-link
+                    to="/CareerDesc"
+                    custom v-slot="{navigate}">
+                    <button @click="navigate" role="link" type="button" class="btn btn-primary">View Career ↗</button>
+                </router-link>            
+            </div>
+            </div>
+        </div>
+        
+    </div>
+
 </div>
 
 
