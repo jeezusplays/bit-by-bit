@@ -1,4 +1,5 @@
 <template>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <div class="container m-3 mx-auto">
     <h4>{{user}}</h4>
     <br>
@@ -9,17 +10,20 @@
     </div>
 
 </div>
-  <div class="container h-100">
-    <div class="row align-items-center h-100">
-      <div v-for="item in items" :key="item.id" class="card col-md-4 col-sm-6 rounded border-0 p-3">
-        <img class="card-img-top rounded-4" :src="item.image_480x270" alt="Card image cap">
-        <div class="overlay-body glass-morphic-overlay">
-            <div class="row">
-            <p class="col-8 h6 card-text text-truncate p-3 mx-2">{{item.visible_instructors[0].title}}</p>
-            <p style="font-style: italic;" class="card-text font-weight-light text-light col-3 p-3">{{ item.price }}</p>
-            </div>
+  <div class="container">
+    <div class="row">
+      <div v-for="item in items" :key="item.id" class="card col-md-6 col-lg-4 rounded border-0 p-3">
+        
+          <img class="card-img-top w-100 rounded-4" :src="item.image_480x270" alt="Card image cap">
+          <div class="glass-morphic-image w-100">
+
+          <div class="overlay-body glass-morphic-overlay row">
+              <h6 class="col-8 card-text text-truncate p-3 mx-2">{{item.visible_instructors[0].title}}</h6>
+              <p style="font-style: italic;" class="card-text font-weight-light text-light col-3 p-3">{{ item.price }}</p>
+              
+          </div>
         </div>
-        <div class="card-body">
+        <div class="card-body col text-center">
             <p class="h5 card-title">{{ item.title }}</p>
             <p class="card-text description">{{ item.headline }}</p>
             <!-- <span> -->
@@ -29,6 +33,7 @@
       </div>
     </div>
   </div>
+
 </template>
 
 <script>
@@ -116,16 +121,16 @@ export default {
     }
 
     .glass-morphic-overlay {
-    color:white;
+    color: grey;
     border-width: medium;
     border-radius: 10px;
-    height:3.7em;
+    height:3em;
     position: absolute;
     top: 50%;
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(240, 240, 240, 0.3);
+    background: rgba(15, 15, 15, 0.8);
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(3px);
     z-index: 1;
