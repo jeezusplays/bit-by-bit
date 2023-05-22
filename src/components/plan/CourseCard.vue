@@ -4,7 +4,7 @@
 
 <script>
 export default {
-    name: "PlanLJ",
+    name: "CourseCard",
     data() {
         return {}
     },

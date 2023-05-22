@@ -5,12 +5,12 @@
             <div class="dropdown flex-col d-flex align-items-center ms-3">
                 <button class="btn btn-secondary dropdown-toggle btn-sm" type="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
-                    Dropdown button
+                    Web Developer
                 </button>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><a class="dropdown-item" href="#">Another Career</a></li>
+                    <li><a class="dropdown-item" href="#">Another Career</a></li>
+                    <li><a class="dropdown-item" href="#">Another Career</a></li>
                 </ul>
             </div>
             <button type="button" class="btn btn-primary flex-col ms-auto shadow">Get a mentor</button>
@@ -23,7 +23,7 @@
                     <h4 class="mt-2">Skills</h4>
                     <div class="btn-group-vertical mb-2 w-100" role="group" aria-label="Vertical radio toggle button group">
                         <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio1" autocomplete="off" checked>
-                        <label class="btn btn-outline-secondary rounded mt-2 " for="vbtn-radio1">Skill 1</label>
+                        <label class="btn btn-outline-secondary rounded mt-2 " for="vbtn-radio1">Web Design</label>
 
                         <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio2" autocomplete="off">
                         <label class="btn btn-outline-secondary rounded mt-2 " for="vbtn-radio2">Skill 2</label>
@@ -39,7 +39,7 @@
                         <h3 class="flex-col flex-shrink-1">Courses (20)</h3>
                         <div class="dropdown flex-col ms-3 d-flex align-items-center">
                             <button class="btn btn-secondary dropdown-toggle btn-sm" type="button"
-                                data-bs-toggle="dropdown" aria-expanded="true"> Dropdown button
+                                data-bs-toggle="dropdown" aria-expanded="true"> Filter by
                             </button>
                             <ul class="dropdown-menu" data-popper-placement="bottom-start"
                                 style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate3d(0px, 32.8px, 0px);">
@@ -51,14 +51,20 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 mt-2 mb-3 g-3">
-                        <div class="col">
-                            <div class="overflow-hidden border rounded">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png" class="card-img-top img-fluid" alt="...">
+                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 mt-1 mb-3 g-3">
+                        <div v-for="(data, index) in course_data.results" :key="index" class="col d-flex">
+                            
+                            <div class="overflow-hidden border rounded shadow-sm">
+                                <div class="position-relative">
+                                    <img :src="data.image_480x270" class="card-img-top card-img img-fluid" alt="...">
+                                <div class="card-img-overlay-custom">
+                                    <h6 class=" p-2 m-0 text-dark">Progress: 0%</h6>
+                                </div>
+                                </div>
                                 <div class="card-body p-3">
-                                  <h5>Card title</h5>
+                                  <h5>{{data.title}}</h5>
                                   <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                  <a href="#" class="btn btn-primary">Start course ↗</a>
                                 </div>
                             </div>
                         </div>
@@ -101,6 +107,8 @@
 </template>
 
 <script>
+import sample from "./sample_response.json"
+
 export default {
     name: "PlanLJ",
     data() {
@@ -132,7 +140,8 @@ export default {
 
                 ]
             }],
-            user: "Samuel Chung"
+            user: "Samuel Chung",
+            course_data: sample
         }
     },
     methods: {
@@ -144,5 +153,20 @@ export default {
 <style scoped>
 .plan {
     min-height: 80vh;
+}
+
+.card-img-top{
+    min-height: 200px;
+    object-fit: cover;
+    
+}
+
+.card-img-overlay-custom{
+    position: absolute;
+    top: 0;
+    /* right: 0; */
+    /* bottom: 0; */
+    left: 0;
+    background-color: rgba(255,255,255,0.9);
 }
 </style>
