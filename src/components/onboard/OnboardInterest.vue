@@ -3,7 +3,7 @@
   <div class="container-fluid vh-100 d-flex">
     <div class="container m-auto">
       <h1 class="justify-content-center text-center">
-        What are some careers you are interested in?
+        What careers are you interested in?
       </h1>
       <div class="justify-content-center mt-5">
         <h3>Input Careers</h3>
