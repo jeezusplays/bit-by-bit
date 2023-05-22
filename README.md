@@ -36,6 +36,7 @@ As Singapore's economy evolves, there is a growing demand for workers with digit
 [![Vue.js]](https://vuejs.org/)
 [![Bootstrap]](https://getbootstrap.com/)
 [![Font Awesome]](https://fontawesome.com/)
+[![Figma]](https://www.figma.com/)
 
 
 <!-- #### Back-end frameworks and libraries -->
@@ -141,13 +142,8 @@ Feel free to contact and connect!
 
 
 ## Acknowledgements
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
 * [Img Shields](https://shields.io)
 * [Font Awesome](https://fontawesome.com)
-* [Github Profile Badges](https://home.aveek.io/GitHub-Profile-Badges/)
 
 
 [forks-shield]: https://img.shields.io/github/forks/jeezusplays/bit-by-bit.svg?style=for-the-badge
@@ -162,5 +158,6 @@ Feel free to contact and connect!
 [Vue.js]: https://img.shields.io/badge/Vue.js-4FC08D.svg?style=for-the-badge&logo=vuedotjs&logoColor=white
 [Bootstrap]: https://img.shields.io/badge/Bootstrap-7952B3.svg?style=for-the-badge&logo=Bootstrap&logoColor=white
 [Font Awesome]: https://img.shields.io/badge/Font%20Awesome-528DD7.svg?style=for-the-badge&logo=Font-Awesome&logoColor=white
+[Figma]: https://img.shields.io/badge/Figma-F24E1E.svg?style=for-the-badge&logo=Figma&logoColor=white
 
 
