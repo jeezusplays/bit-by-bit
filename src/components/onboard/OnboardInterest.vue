@@ -6,7 +6,7 @@
         What are some careers you are interested in?
       </h1>
       <div class="justify-content-center mt-5">
-        <h3>Input careers</h3>
+        <h3>Input Careers</h3>
         <input class="form-control form-control-lg" type="text" id="career-input" v-model="careerInput" 
         @keyup.enter="addCareer">
       </div>
