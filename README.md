@@ -96,9 +96,30 @@ As Singapore's economy evolves, there is a growing demand for workers with digit
 
 ## Usage
 To use the application, follow these steps:
-1. Open the application in a web browser.
+1. Open the application in a web browser (https://bitbybit-2b50c.web.app/).
 2. Follow the on-screen instructions to navigate through the application's features.
+
 3. If prompted, enter any required input values or select desired options.
+
+  > Onboard page (Interest) - Input your interest and click "next" <br><br>
+  <img src="src/assets/screenshots/interest.jpg" alt="Logo">
+
+  > Onboard page (Skill) - Input your skills and click "next" <br><br>
+  <img src="src/assets/screenshots/skill.jpg" alt="Logo">
+
+  > Recommend Career - Click "View career" <br><br>
+  <img src="src/assets/screenshots/recommendcareer.jpg" alt="Logo">
+
+  > Career Description - Click on "Web design" or "Become a web developer" <br><br>
+  <img src="src/assets/screenshots/careerdesc.jpg" alt="Logo">
+
+  > Courses - View example courses here <br><br>
+  <img src="src/assets/screenshots/courses.jpg" alt="Logo">
+
+  > Plan - View your learning journey here <br><br>
+  <img src="src/assets/screenshots/plan.jpg" alt="Logo">
+
+
 4. When finished, exit the application or close the web browser.
 
 ## Contributing
