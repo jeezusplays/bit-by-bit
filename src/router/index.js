@@ -20,7 +20,7 @@ import CareerDesc from '../components/recommendation/CareerDesc.vue'
 // Define routes
 const routes = [
   {
-    path: '/',
+    path: '/bit-by-bit/',
     component: NavBar,
     children: [
       { path: 'dashboard', component: Dashboard },
