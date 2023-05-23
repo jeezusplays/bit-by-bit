@@ -30,35 +30,18 @@
 As Singapore's economy evolves, there is a growing demand for workers with digital skills. However, many job seekers may lack the necessary skills to secure these jobs. By creating digital skills matching platforms that connect job seekers with training programs and job opportunities, Bit By Bit can help to promote digital empowerment and bridge the skills gap in Singapore's labor market.
 
 ## Built With
-<!-- ### Major Frameworks / Libraries 
-
-#### Front-end frameworks and libraries -->
 [![Vue.js]](https://vuejs.org/)
+[![HTML]](https://www.w3schools.com/html/)
 [![Bootstrap]](https://getbootstrap.com/)
+[![CSS]](https://www.w3schools.com/css/)
 [![Font Awesome]](https://fontawesome.com/)
 [![Figma]](https://www.figma.com/)
 
-
-<!-- #### Back-end frameworks and libraries -->
-<!-- 1. Express - A popular Node.js framework for building web applications.
-2. Django - A Python web framework for building high-level, robust web applications.
-3. Ruby on Rails - A Ruby-based web application framework that follows the Model-View-Controller (MVC) architecture pattern.
-4. Flask - A Python web framework that emphasizes simplicity and flexibility.
-5. Spring - A Java-based framework for building enterprise-level applications. -->
-
-<!-- #### Data science and machine learning frameworks and libraries -->
-<!-- 1. TensorFlow - A popular open-source library for machine learning developed by Google.
-2. PyTorch - An open-source machine learning framework developed by Facebook's AI Research team.
-3. scikit-learn - A Python library for machine learning and data mining.
-4. Pandas - A Python library for data manipulation and analysis.
-5. NumPy - A Python library for numerical computing and data analysis. -->
-
-<!-- #### Other commonly used frameworks and libraries -->
-<!-- 1. jQuery - A JavaScript library for simplifying client-side scripting and HTML document manipulation.
-2. Flask RESTful - A Flask extension for building RESTful APIs.
-3. FastAPI - A modern, fast (high-performance) web framework for building APIs with Python 3.7+.
-4. Jest - A JavaScript testing framework.
-5. Mocha - A JavaScript testing framework for Node.js applications. -->
+[![JavaScript]](https://www.javascript.com/)
+[![Node.js]](https://nodejs.org/en/)
+[![npm]](https://www.npmjs.com/)
+[![Python]](https://www.python.org/)
+[![GitHub]](https://github.com/)
 
 <!-- ### APIs  -->
 <!-- _Examples of APIs used_
@@ -159,5 +142,11 @@ Feel free to contact and connect!
 [Bootstrap]: https://img.shields.io/badge/Bootstrap-7952B3.svg?style=for-the-badge&logo=Bootstrap&logoColor=white
 [Font Awesome]: https://img.shields.io/badge/Font%20Awesome-528DD7.svg?style=for-the-badge&logo=Font-Awesome&logoColor=white
 [Figma]: https://img.shields.io/badge/Figma-F24E1E.svg?style=for-the-badge&logo=Figma&logoColor=white
+[Python]: https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white
 
 
+[CSS]: https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white
+[HTML]: https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white
+[JavaScript]: https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black
+[Node.js]: https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white
+[npm]: https://img.shields.io/badge/npm-CB3837.svg?style=for-the-badge&logo=npm&logoColor=white
