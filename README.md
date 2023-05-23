@@ -102,22 +102,22 @@ To use the application, follow these steps:
 3. If prompted, enter any required input values or select desired options.
 
   > Onboard page (Interest) - Input your interest and click "next" <br><br>
-  <img src="src/assets/screenshots/interest.jpg" alt="Logo">
+  <img src="src/assets/screenshots/interest.JPG" alt="Logo">
 
   > Onboard page (Skill) - Input your skills and click "next" <br><br>
-  <img src="src/assets/screenshots/skill.jpg" alt="Logo">
+  <img src="src/assets/screenshots/skill.JPG" alt="Logo">
 
   > Recommend Career - Click "View career" <br><br>
-  <img src="src/assets/screenshots/recommendcareer.jpg" alt="Logo">
+  <img src="src/assets/screenshots/recommendcareer.JPG" alt="Logo">
 
   > Career Description - Click on "Web design" or "Become a web developer" <br><br>
-  <img src="src/assets/screenshots/careerdesc.jpg" alt="Logo">
+  <img src="src/assets/screenshots/careerdesc.JPG" alt="Logo">
 
   > Courses - View example courses here <br><br>
-  <img src="src/assets/screenshots/courses.jpg" alt="Logo">
+  <img src="src/assets/screenshots/courses.JPG" alt="Logo">
 
   > Plan - View your learning journey here <br><br>
-  <img src="src/assets/screenshots/plan.jpg" alt="Logo">
+  <img src="src/assets/screenshots/plan.JPG" alt="Logo">
 
 
 4. When finished, exit the application or close the web browser.
